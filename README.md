@@ -5,7 +5,9 @@ ___
 Склонируйте репозиторий на свой локальный компьютер:git clone ___https://github.com/Argon755/LaravelProject.git___
 ___
 + Поместите проект в папку ***domains***
-+ Перейдите в директорию проекта с помощью команды: __cd domains/kursovayalaravel\kurs_project__ 
++ Перейдите в директорию проекта с помощью команды: __cd domains/kursovayalaravel\kurs_project__
++ Переименуйте файл .env.***** из директории проекта в ***.env***
++ Сгенерируйте ключ приложения с помощью команды: `php artisan key:generate`
 + Убедитесь в работе приложения используя команду: __`php artisan`__
 + Выполните миграции для создания таблиц в базе данных: __`php artisan migrate`__
 + Запустите веб-сервер: __`php artisan serve`__
